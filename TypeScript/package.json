@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
   "devDependencies": {
     "@types/jest": "^24.0.23",
     "@types/node": "^12.12.8",
+    "jest": "^24.9.0",
     "ts-jest": "^24.1.0",
     "ts-node": "^8.5.2",
     "typescript": "^3.7.2"
@@ -33,7 +34,7 @@
       }
     },
     "testMatch": [
-      "**/tests/**/*.test.ts"
+      "**/test/**/*.test.ts"
     ]
   }
 }
