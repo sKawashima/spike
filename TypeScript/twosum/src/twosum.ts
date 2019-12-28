@@ -1,9 +1,5 @@
-interface numbersObject{
-  [key:string]: boolean
-}
-
 const twosum = (numbers:number[], target:number) => {
-  const numbersObject:numbersObject = {}
+  const numbersObject:{[key:string]: boolean} = {}
 
   for (let i = 0;i < numbers.length;i++) {
     if (numbersObject[`${target - numbers[i]}`]) {
